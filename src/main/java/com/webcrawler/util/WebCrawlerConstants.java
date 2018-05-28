@@ -46,4 +46,5 @@ public interface WebCrawlerConstants {
     //LOG SECTION
     public static final String STATUS_ERROR_LOG = "ERROR: %s";
     public static final String FETCHING_URL = "Fetching URL: %s";
+    public static final String FILE_GENERATED = "File 'Sicred_Sitemap.txt' generated at your project folder.";
 }
