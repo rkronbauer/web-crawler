@@ -60,6 +60,7 @@ public class WriteFileService {
         } finally {
             if (writer != null) {
                 try {
+                    System.out.println(WebCrawlerConstants.FILE_GENERATED);
                     writer.close();
                 } catch (IOException e) {
                     System.err.println(WebCrawlerConstants.STATUS_ERROR + ": " + e.getMessage());
