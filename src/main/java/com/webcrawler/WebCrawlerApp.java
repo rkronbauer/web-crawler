@@ -3,7 +3,7 @@ package com.webcrawler;
 import com.webcrawler.services.WebCrawlerService;
 
 /**
- * Hello world!
+ * Start generating web crawler
  *
  */
 public class WebCrawlerApp {
