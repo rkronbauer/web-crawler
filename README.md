@@ -19,6 +19,14 @@ After installing Java 8 and getting Maven working on your local machine, you wil
 mvn clean install
 ```
 
+### Executiong
+
+After above steps, you should be able to run de project executing below Maven command in the same project path you ran the above Maven command:
+
+```git
+mvn exec:java -D exec.mainClass=com.webcrawler.WebCrawlerApp
+```
+
 ### Additional information
 
 If you don't want to fetch all internal links from a given URL, you just need to set the constant variable FULL_CRAWLER to false at WebCrawlerConstants class:
