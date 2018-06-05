@@ -19,9 +19,9 @@ After installing Java 8 and getting Maven working on your local machine, you wil
 mvn clean install
 ```
 
-### Executiong
+### Executing
 
-After above steps, you should be able to run de project executing below Maven command in the same project path you ran the above Maven command:
+After above steps, you should be able to run the project executing below Maven command in the same project path you ran the above Maven command:
 
 ```git
 mvn exec:java -D exec.mainClass=com.webcrawler.WebCrawlerApp
@@ -39,4 +39,4 @@ public interface WebCrawlerConstants {
 
 ## Authors
 
-* **Raffael Kronbauer** - *Initial work* - [rkronbauer](https://github.com/rkronbauer)
+* **Raffael Kronbauer** - [rkronbauer](https://github.com/rkronbauer)
